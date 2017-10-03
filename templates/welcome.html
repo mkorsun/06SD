@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head><title> WOAH </title></head>
+  <body>
+    <h2> Hello {{ name }}</h2>
+    <br>
+    {% for n in query %}
+    {{ n }} : {{ query[n] }}
+    {% endfor %}
+
+    <br>
+
+    you got here from {{ method }}
+
+  </body>
+</html>
